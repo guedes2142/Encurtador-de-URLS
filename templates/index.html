@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCURTADOR DE URLS</title>
+    <style>
+        #bg{
+            background-color: #333;
+        }
+        #texto1 {
+            color: #ffffff;
+        }
+  
+        #texto2 {
+            color: #ffffff;
+        }
+        #link1{
+            color: rgb(255, 230, 3);
+        }
+    </style>
+</head>
+<body id="bg">
+    
+    <h1 id="texto1">ENCURTADOR DE URLS</h1>
+    <h3 id="texto2">Digite o caminho completo do link inclundo https//: </h3>
+    <form action="{{ url_for('index') }}" method="POST">
+        <input type="text" name="long_url" placeholder="Entre com o link">
+        <button type="submit">Encurtar</button>
+    </form>
+
+   
+    <a id="link1" href="https://github.com/guedes2142/"> 
+        <h5>Rafael Guedes Backend developer <br>
+            Github
+
+        </h5>
+    </a>
+
+    
+</body>
+</html>
