@@ -1,11 +1,13 @@
+
 <body>
+    <img src="https://github.com/guedes2142/Encurtador-de-URLS/blob/main/Screenshot%20from%202023-06-11%2014-24-40.png" alt="">
 
-    <h1>Encurtador de urls</h1>
-      <h3>URL Shorten</h3>
+    Encurtador de urls
+    URL Shorten
 
-      <h4>Clone o repositorio</h4>
-      <h4>Inicie o arquivo main.py</h4>
-      <h4>Copie e cole o endereco no seu navegador</h4>
-      <h4>Ensira a url</h4>
+      Clone o repositorio
+      Inicie o arquivo main.py
+      Copie e cole o endereco no seu navegador
+      Ensira a url
 
 </body>
